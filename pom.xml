@@ -8,4 +8,12 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <artifactId>Calculator</artifactId>
     <version>0.0.1</version>
 
+    <packaging>pom</packaging>
+    <name>Calculator</name>
+    <description>Basic Calculator app</description>
+
+    <modules>
+        <module>devschool-main</module>
+    </modules>
+
 </project>
