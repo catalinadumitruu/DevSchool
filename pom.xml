@@ -13,7 +13,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <description>Basic Calculator app</description>
 
     <modules>
-        <module>devschool-main</module>
+        <module>devschool-project</module>
     </modules>
 
 </project>
