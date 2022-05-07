@@ -6,6 +6,14 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.ing.devschool</groupId>
     <artifactId>Calculator</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
+
+    <packaging>pom</packaging>
+    <name>Calculator</name>
+    <description>Basic Calculator app</description>
+
+    <modules>
+        <module>devschool-main</module>
+    </modules>
 
 </project>
