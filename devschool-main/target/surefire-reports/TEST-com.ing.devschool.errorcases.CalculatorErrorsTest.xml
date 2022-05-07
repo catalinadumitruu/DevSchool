@@ -1,63 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.ing.devschool.errorcases.CalculatorErrorsTest" time="0.062" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.ing.devschool.errorcases.CalculatorErrorsTest" time="0.097" tests="2" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="java.specification.version" value="13"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="D:\DevSchool\devschool-main\target\test-classes;D:\DevSchool\devschool-main\target\classes;C:\Users\catal\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\catal\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\catal\.m2\repository\org\mockito\mockito-junit-jupiter\4.5.0\mockito-junit-jupiter-4.5.0.jar;C:\Users\catal\.m2\repository\org\mockito\mockito-core\4.5.0\mockito-core-4.5.0.jar;C:\Users\catal\.m2\repository\net\bytebuddy\byte-buddy\1.12.9\byte-buddy-1.12.9.jar;C:\Users\catal\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.9\byte-buddy-agent-1.12.9.jar;C:\Users\catal\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;C:\Users\catal\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\catal\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\catal\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\catal\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
-    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="java.class.path" value="C:\Users\SS95YY\_Documents\DevSchool\DevSchool\devschool-main\target\test-classes;C:\Users\SS95YY\_Documents\DevSchool\DevSchool\devschool-main\target\classes;C:\Users\SS95YY\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\SS95YY\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\SS95YY\.m2\repository\org\mockito\mockito-junit-jupiter\4.5.0\mockito-junit-jupiter-4.5.0.jar;C:\Users\SS95YY\.m2\repository\org\mockito\mockito-core\4.5.0\mockito-core-4.5.0.jar;C:\Users\SS95YY\.m2\repository\net\bytebuddy\byte-buddy\1.12.9\byte-buddy-1.12.9.jar;C:\Users\SS95YY\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.9\byte-buddy-agent-1.12.9.jar;C:\Users\SS95YY\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;C:\Users\SS95YY\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\SS95YY\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\SS95YY\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\SS95YY\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
-    <property name="java.vendor.url" value="http://www.azul.com/"/>
-    <property name="user.timezone" value="Europe/Bucharest"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Athens"/>
+    <property name="user.country.format" value="RO"/>
+    <property name="maven.wagon.http.ssl.ignore.validity.dates" value="true"/>
+    <property name="java.vm.specification.version" value="1.8"/>
     <property name="os.name" value="Windows 10"/>
-    <property name="java.vm.specification.version" value="13"/>
+    <property name="maven.wagon.http.ssl.allowall" value="true"/>
+    <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="user.country" value="GB"/>
-    <property name="sun.boot.library.path" value="C:\Users\catal\.jdks\azul-13.0.8\bin"/>
-    <property name="sun.java.command" value="C:\Users\catal\AppData\Local\Temp\surefire15889137075099618437\surefirebooter3853385951073021945.jar C:\Users\catal\AppData\Local\Temp\surefire15889137075099618437 2022-05-07T17-03-05_620-jvmRun1 surefire5569701830906679745tmp surefire_04100217802065493707tmp"/>
-    <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="D:\DevSchool\devschool-main\target\test-classes;D:\DevSchool\devschool-main\target\classes;C:\Users\catal\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\catal\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\catal\.m2\repository\org\mockito\mockito-junit-jupiter\4.5.0\mockito-junit-jupiter-4.5.0.jar;C:\Users\catal\.m2\repository\org\mockito\mockito-core\4.5.0\mockito-core-4.5.0.jar;C:\Users\catal\.m2\repository\net\bytebuddy\byte-buddy\1.12.9\byte-buddy-1.12.9.jar;C:\Users\catal\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.9\byte-buddy-agent-1.12.9.jar;C:\Users\catal\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;C:\Users\catal\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\catal\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\catal\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\catal\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
+    <property name="sun.boot.library.path" value="C:\Users\SS95YY\JDK\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\SS95YY\AppData\Local\Temp\surefire6006663752402464834\surefirebooter4662742399107188219.jar C:\Users\SS95YY\AppData\Local\Temp\surefire6006663752402464834 2022-05-07T17-47-53_256-jvmRun1 surefire319084217380963615tmp surefire_01406715716915052182tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\SS95YY\_Documents\DevSchool\DevSchool\devschool-main\target\test-classes;C:\Users\SS95YY\_Documents\DevSchool\DevSchool\devschool-main\target\classes;C:\Users\SS95YY\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\SS95YY\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\SS95YY\.m2\repository\org\mockito\mockito-junit-jupiter\4.5.0\mockito-junit-jupiter-4.5.0.jar;C:\Users\SS95YY\.m2\repository\org\mockito\mockito-core\4.5.0\mockito-core-4.5.0.jar;C:\Users\SS95YY\.m2\repository\net\bytebuddy\byte-buddy\1.12.9\byte-buddy-1.12.9.jar;C:\Users\SS95YY\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.9\byte-buddy-agent-1.12.9.jar;C:\Users\SS95YY\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;C:\Users\SS95YY\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\SS95YY\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\SS95YY\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\SS95YY\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="C:\Users\catal"/>
+    <property name="maven.wagon.http.ssl.insecure" value="true"/>
+    <property name="user.home" value="C:\Users\SS95YY"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2021-07-20"/>
-    <property name="java.home" value="C:\Users\catal\.jdks\azul-13.0.8"/>
+    <property name="java.home" value="C:\Users\SS95YY\JDK\jre"/>
+    <property name="basedir" value="C:\Users\SS95YY\_Documents\DevSchool\DevSchool\devschool-main"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="D:\DevSchool\devschool-main"/>
-    <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="jdk.vendor.version" value="Zulu13.42+17-CA"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\catal\AppData\Local\Temp\surefire15889137075099618437\surefirebooter3853385951073021945.jar"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\SS95YY\AppData\Local\Temp\surefire6006663752402464834\surefirebooter4662742399107188219.jar"/>
+    <property name="sun.boot.class.path" value="C:\Users\SS95YY\JDK\jre\lib\resources.jar;C:\Users\SS95YY\JDK\jre\lib\rt.jar;C:\Users\SS95YY\JDK\jre\lib\sunrsasign.jar;C:\Users\SS95YY\JDK\jre\lib\jsse.jar;C:\Users\SS95YY\JDK\jre\lib\jce.jar;C:\Users\SS95YY\JDK\jre\lib\charsets.jar;C:\Users\SS95YY\JDK\jre\lib\jfr.jar;C:\Users\SS95YY\JDK\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="13.0.8+5-MTS"/>
-    <property name="user.name" value="catal"/>
+    <property name="java.runtime.version" value="1.8.0_201-b09"/>
+    <property name="user.name" value="SS95YY"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
-    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.endorsed.dirs" value="C:\Users\SS95YY\JDK\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="Cp1252"/>
-    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="java.vendor.version" value="Zulu13.42+17-CA"/>
-    <property name="localRepository" value="C:\Users\catal\.m2\repository"/>
-    <property name="java.vendor.url.bug" value="http://www.azul.com/support/"/>
-    <property name="java.io.tmpdir" value="C:\Users\catal\AppData\Local\Temp\"/>
-    <property name="idea.version" value="2021.2.3"/>
-    <property name="java.version" value="13.0.8"/>
-    <property name="user.dir" value="D:\DevSchool\devschool-main"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\SS95YY\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\SS95YY\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2020.2.4"/>
+    <property name="java.version" value="1.8.0_201"/>
+    <property name="user.dir" value="C:\Users\SS95YY\_Documents\DevSchool\DevSchool\devschool-main"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="user.language.format" value="ro"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Users\catal\.jdks\azul-13.0.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Dev Tools\Git\cmd;C:\MinGW\bin;C:\Dev Tools\CMake\bin;D:\Dev Tools\bin;D:\Dev Tools\;C:\ProgramData\chocolatey\bin;D:\Dev Tools\JDK-11.0\bin;C:\Python310\Scripts\;C:\Python310\;D:\Dev Tools\Ruby27-x64\bin;C:\Users\catal\AppData\Local\Microsoft\WindowsApps;D:\Dev Tools\Microsoft VS Code\bin;D:\Dev Tools\mysql-8.0.22-winx64\bin;D:\Dev Tools\mongodb-win32-x86_64-windows-4.4.4\bin;C:\Users\catal\AppData\Local\GitHubDesktop\bin;C:\Software\jc\JavaCardDevelopmentKitSimulator3.1.0\bin;C:\MinGW\bin;D:\Dev Tools\IntelliJ IDEA 2021.2.3\bin;;D:\Dev Tools\IntelliJ IDEA Community Edition 2021.2.3\bin;;C:\Program Files\Jenkins;C:\Program Files\Java\jre1.8.0_301\bin;D:\cygwin\bin;D:\lib\install\opencv\x64\vc17\bin;D:\Dev Tools\MinGW\bin;C:\Users\catal\AppData\Roaming\npm;."/>
-    <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="java.vendor" value="Azul Systems, Inc."/>
-    <property name="java.vm.version" value="13.0.8+5-MTS"/>
+    <property name="java.library.path" value="C:\Users\SS95YY\JDK\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\SafeNet\Authentication\SAC\x64;C:\Program Files\SafeNet\Authentication\SAC\x32;%MAVEN%\bin;%JAVA_HOME%\bin;;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\SS95YY\AppData\Local\Microsoft\WindowsApps;C:\Users\SS95YY\_Programs\IntelliJ IDEA 2020.2.3\bin;;C:\Users\SS95YY\apache-maven-3.6.3\bin;C:\Users\SS95YY\JDK\bin;C:\Users\SS95YY\_Programs\Microsoft SDKs\Azure\CLI2\wbin\az;C:\Users\SS95YY\_Programs\Microsoft SDKs\Azure\CLI2\wbin\az.cmd;C:\Users\SS95YY\_Programs\Microsoft SDKs\Azure\CLI2\wbin\python.exe;C:\Users\SS95YY\_Programs\Microsoft SDKs\Azure\CLI2\wbin;C:\Users\SS95YY\_Programs\Git\cmd;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.201-b09"/>
+    <property name="java.ext.dirs" value="C:\Users\SS95YY\JDK\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="java.class.version" value="57.0"/>
+    <property name="maven.repo.local" value="C:\Users\SS95YY\.m2\repository"/>
+    <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testErrorSubstractEquals" classname="com.ing.devschool.errorcases.CalculatorErrorsTest" time="0"/>
+  <testcase name="testErrorSubstractEquals" classname="com.ing.devschool.errorcases.CalculatorErrorsTest" time="0.01"/>
   <testcase name="testErrorDivide" classname="com.ing.devschool.errorcases.CalculatorErrorsTest" time="0"/>
 </testsuite>
