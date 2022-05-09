@@ -1,4 +1,4 @@
-name: Calculator
+name: CI
 
 on: [push]
 
@@ -14,5 +14,11 @@ jobs:
           java-version: '11'
           distribution: 'adopt'
 
+      - name: Show files before maven build
+        run: tree -L 5
+
       - name: Build App
         run: mvn clean install
+
+      - name: Show files after maven build
+        run: tree -L 5
